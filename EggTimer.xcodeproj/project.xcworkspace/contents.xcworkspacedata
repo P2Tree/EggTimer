@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../EggTimerTests">
+   </FileRef>
+   <FileRef
+      location = "group:../EggTimerUITests">
+   </FileRef>
+   <FileRef
       location = "self:EggTimer.xcodeproj">
    </FileRef>
 </Workspace>
