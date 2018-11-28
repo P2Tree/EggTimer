@@ -30,6 +30,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         ResetTimerMenuItem.isEnabled = reset
     }
     
-
+    
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        return true;
+    }
 }
 
